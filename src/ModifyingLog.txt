@@ -1,0 +1,21 @@
+March 3, 2016
+Problems:
+-Bullet bill, Wave goomba.
+-Movement of EnemyFlower.
+-Very tiny mistake in calculation leads to mario failed to avoid enemies. (???????)
+
+Modified code:
+-Recognition of Koopa and winged enemies.
+-Fix enemies gravity
+-Add WaveGoomba case in the getEnemiesFloatPos method (LevelScene.java of the main program ch.idsia).
+
+
+Feb 29, 2016
+Problems:
+-Can not recognize red winged enemy.
+-Problem in recognize flower enemy.
+
+Modified code:
+-Use integrated information from agent, not directly from environment variable.
+-Drop all nodes in which mario get hurt. (search() method inside AStarSimulator.java)
+-Reset mario sprite after its dead in the simulator. (getAction() method inside AStarAgent.java)
